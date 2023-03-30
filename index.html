@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Educase Assignment</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to PopX</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, facere.</p>
+        <button id="myButton" class="btn btn1">Create Account</button>
+        <button id="myButton2" class="btn btn2">Already Registered? Login</button>
+    </div>
+</body>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "./CreateAccount/createAccount.html";
+    };
+
+    document.getElementById("myButton2").onclick = function () {
+        location.href = "./SignIn/index.html";
+    };
+</script>
+</html>

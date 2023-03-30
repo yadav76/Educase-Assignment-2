@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 20vw;
+    margin: 10px;
+    margin-top: 65vh;  
+    margin-left: 40vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px; 
+    margin: 8px; 
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn1{
+    background: #7a62bb;
+    color: #fff;
+}
+.btn2{
+    background: #bebbca;
+    color: #000;
+}
+
+
+
+/* Create Account */
+
